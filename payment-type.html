@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <title>سكينة</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css" /> -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.rtl.min.css"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="icon" href="images/logo.png" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-xl navbar-light">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img src="images/logo@2x.png" alt="" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >الرئيسية</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">النظرية النفسية</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">العيادة</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">الخدمات</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">اتصل بنا</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">من نحن</a>
+              </li>
+            </ul>
+            <a href="#" class="btn btn-success rounded-pill">تسجيل دخول</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="pager">
+        <div class="container">
+          <ul>
+            <li><a href="#">الرئيسية</a></li>
+            <li><a href="#">النظرية النفسية</a></li>
+            <li><a href="#">المنصة التعليمية</a></li>
+            <li><a href="#">اسم الدورة</a></li>
+            <li>الدفع الالكتروني</li>
+          </ul>
+          <h2>لمنصة التعليمية</h2>
+        </div>
+      </div>
+      <div class="inner-menu">
+        <div class="container">
+          <ul>
+            <li><a href="#">عن المنصة التعليمية</a></li>
+            <li><a href="#">القبول والتسجيل</a></li>
+            <li><a href="#">الخدمات الدراسية</a></li>
+            <li><a href="#">الشؤون الدراسية</a></li>
+            <li>
+              <a href="#">التعريف بالمقررات</a>
+              <ul class="drop-menu">
+                <li><a href="#">الاطلاع على المقررات</a></li>
+                <li><a href="#">تعرف على طريقة الدراسة</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="main-content">
+        <div class="login-content">
+          <div class="container">
+            <h4>ادخل طريقة الدفع</h4>
+            <p>الرجاء تعبئة البيانات بالشكل الصحيح</p>
+
+            <form action="#" class="mt-5">
+              <div class="row justify-content-between">
+                <div class="col-md-6">
+                  <div class="shadow rounded p-4 payment-box">
+                    <div class="title">
+                      <span class="active" data-tab="cache">كاش كارد</span>
+                      <span data-tab="paypal">بي بال</span>
+                    </div>
+
+                    <div class="tab-content p-3" id="tab-cache">
+                      <img class="mb-5 mt-4" src="images/payment.png" alt="">
+
+                      <div class="mb-4 w-75">
+                        <label class="mb-2">رقم البطاقة</label>
+                        <input type="text" placeholder="رقم البطاقة" class="form-control py-2">
+                      </div>
+
+                      <div class="mb-4 w-75">
+                        <label class="mb-2">تاريخ الانتهاء</label>
+                        <div class="input-groups">
+                          <input type="text" placeholder="تاريخ الانتهاء">
+                          <input type="text" placeholder="تاريخ الانتهاء">
+                        </div>
+                      </div>
+
+                      <div class="mb-4 w-75">
+                        <label class="mb-2">رقم كود البطاقة</label>
+                        <input type="text" placeholder="رقم كود البطاقة" class="form-control py-2">
+                      </div>
+                    </div>
+
+                    <div class="tab-content p-3" id="tab-paypal">
+                      <a href="#" class="btn btn-success btn-lg px-5">PayPal</a>
+                    </div>
+
+                  </div>
+
+
+<button type="button" class="btn btn-success rounded-pill py-3 mt-5 px-5 mx-1" data-bs-toggle="modal" data-bs-target="#paymentModal">
+  تأكيد الدفع
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="paymentModal" tabindex="-1" aria-labelledby="paymentModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <svg xmlns="http://www.w3.org/2000/svg" width="108.665" height="108.665" viewBox="0 0 108.665 108.665">
+        <g id="Group_764" data-name="Group 764" transform="translate(0)">
+          <ellipse id="Ellipse_16" data-name="Ellipse 16" cx="54.332" cy="54.332" rx="54.332" ry="54.332" transform="translate(0 0)" fill="#4e944f"/>
+          <path id="Path_512" data-name="Path 512" d="M1298.084,443.394l-12.015-11.264a6.112,6.112,0,0,1,0-8.919h0a6.112,6.112,0,0,1,8.361,0l6.491,6.086a1.964,1.964,0,0,0,2.686,0l18.626-17.46a6.113,6.113,0,0,1,8.361,0h0a6.113,6.113,0,0,1,0,8.919l-24.149,22.638A6.113,6.113,0,0,1,1298.084,443.394Z" transform="translate(-1253.708 -369.819)" fill="#fff" stroke="#4e944f" stroke-width="2"/>
+        </g>
+      </svg>
+      <p>تم الدفع بنجاح</p>      
+    </div>
+  </div>
+</div>
+                </div>
+                <div class="col-md-4">
+                  <div class="order-summery shadow rounded mx-md-3">
+                    <h5 class="bg-success text-white px-4 py-2 mb-0">
+                      تفاصيل الطلب
+                    </h5>
+                    <div class="content">
+                      <div
+                        class="d-flex justify-content-between align-items-center px-4 py-3"
+                      >
+                        <p>سعر الدورة</p>
+                        <p>500 دولار</p>
+                      </div>
+                      <hr class="m-0" />
+                      <div
+                        class="d-flex justify-content-between align-items-center px-4 py-3"
+                      >
+                        <p dir="ltr">( %ضريبة ( 10</p>
+                        <p>100 دولار</p>
+                      </div>
+                      <hr class="m-0" />
+                      <div
+                        class="d-flex justify-content-between align-items-center px-4 py-3"
+                      >
+                        <p class="text-success">الاجمالي</p>
+                        <p class="text-success">600 دولار</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-12">
+            <div class="footer-item">
+              <h3>روابط سريعة</h3>
+              <ul class="list-2">
+                <li><a href="#">الرئيسية</a></li>
+                <li><a href="#">المكنز الرقمي (للتراث)</a></li>
+                <li><a href="#">خدمات الاستشارت</a></li>
+                <li><a href="#">العيادة</a></li>
+                <li><a href="#">من نحن</a></li>
+                <li><a href="#">البرنامج التاسيسي</a></li>
+                <li><a href="#">المنتدى</a></li>
+                <li><a href="#">سياسة الخصوصية</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-2 offset-lg-1">
+            <div class="footer-item">
+              <h3>فروعنا</h3>
+              <div class="content">
+                <p>الرياض</p>
+                <p>4202 طريق عثمان بن عفان، الواحة، 8528, الرياض 12443</p>
+                <p>جدة</p>
+                <p>الخبر</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 offset-lg-1">
+            <div class="footer-item">
+              <h3>اتصل بنا</h3>
+              <div class="content">
+                <p>+هـ: (928752146) 966</p>
+                <p>+تـ: (500456877) 966</p>
+                <p>+فـ: (1156450282) 966</p>
+                <p>info@sactr.net</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="copyright">
+        <p class="text-center">2022 &copy; جميع الحقوق محفوظة لمنصة سكينة</p>
+      </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
